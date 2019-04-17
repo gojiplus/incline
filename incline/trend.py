@@ -63,9 +63,7 @@ def spline_trend(df, column_value='value', function_order=3,
     spl = UnivariateSpline(x, y, k=function_order, s=s)
     odf = df.copy()
     odf['smoothed_value'] = spl(x)
-    ds = spl.derivative(n = derivative_order) #spl(x, nu=derivative_order) # 
-    odf['derivative_value'] = ds(x)
-    odf['smoothed_value'] = None
+    odf['derivative_value'] = spl(x, nu=derivative_order)
     odf['function_order'] = function_order
     odf['derivative_method'] = 'spline'
     odf['derivative_order'] = derivative_order
