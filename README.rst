@@ -21,7 +21,7 @@ The package provides a way to estimate the first and second derivative at any gi
 
 The difference between naive estimates and estimates based on smoothed time series can be substantial. In the [example](incline/examples/incline_example.ipynb) we provide, the correlation is -.47.
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Example of derivatives](trend.png) 
 
 
 Clarification
