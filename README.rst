@@ -8,7 +8,7 @@ incline: Estimate Trend at a Particular Point in a Noisy Time Series
     :target: https://ci.appveyor.com/project/soodoku/incline
 .. image:: https://img.shields.io/pypi/v/incline.svg
     :target: https://pypi.python.org/pypi/incline
-.. image:: https://pepy.tech/badge/incline
+.. image:: https://static.pepy.tech/badge/incline
     :target: https://pepy.tech/project/incline
 
 Trends in time series are valuable. If the cost of a product rises suddenly, it likely indicates a sudden shortfall in supply or a sudden rise in demand. If the cost of claims filed by a patient rises sharply, it may suggest rapidly worsening health. But how do we estimate the trend at a particular time in a noisy time series? Smooth the time series using any one of the many methods, local polynomials or via GAMs or similar such methods, and then estimate the derivative(s) of the function at the chosen point in time.
