@@ -1,11 +1,6 @@
 incline: Estimate Trend at a Particular Point in a Noisy Time Series
 -----------------------------------------------------------------------
 
-
-.. image:: https://travis-ci.org/soodoku/incline.svg?branch=master
-    :target: https://travis-ci.org/soodoku/incline
-.. image:: https://ci.appveyor.com/api/projects/status/no3ptsnk1qphg0o6?svg=true
-    :target: https://ci.appveyor.com/project/soodoku/incline
 .. image:: https://img.shields.io/pypi/v/incline.svg
     :target: https://pypi.python.org/pypi/incline
 .. image:: https://static.pepy.tech/badge/incline
